@@ -10,8 +10,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 class CareerNinjaBot:
     def __init__(self):
         # Hardcoded API keys (replace with your actual API keys)
-        self.PROXYCURL_API_KEY = "4hwcOfDc-VJgCSveMxRKpg"
-        genai.configure(api_key="AIzaSyBms_NwgHqoCzGUb9yyS7hOpazhtIcmj8U")
+        self.PROXYCURL_API_KEY = "Your_Key"
+        genai.configure(api_key="Your_Key")
 
         # Initialize Gemini model
         self.model = genai.GenerativeModel(
